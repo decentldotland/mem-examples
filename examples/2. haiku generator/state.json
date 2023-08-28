@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://haiku.kremer.dev/?keyword=science",
+  "haikus": [],
+  "publicFunctions": {
+    "generate": []
+  }
+}

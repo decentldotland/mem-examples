@@ -1,0 +1,9 @@
+{
+  "logs": [],
+  "publicFunctions": {
+    "save": [
+      "username",
+      "data"
+    ]
+  }
+}
