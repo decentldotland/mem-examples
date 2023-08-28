@@ -1,0 +1,50 @@
+{
+  "profiles": [],
+  "sig_message": "so-ans-profile-metadata",
+  "admin": "vZY2XY1RD9HIfWi8ift-1_DnHLDadZMWrufSh-_rKF0",
+  "ar_molecule": "https://molecules-exm.herokuapp.com/ar-ota",
+  "signatures": [
+    "Mm1ZkTUJYsRG/YIXY2o64ndkjSX35N/yE08yG2zxejEvTRLlLOp6XG8gVhnyPUUQky2Q1wpeHfhZpQ77REVg9QcZHAFWPvzpF2MC82ItfWk8NrbQzBwSdhdV1G8tq0JROdlVHZakN4+3ikOGOT309Z5kESTbEXiqOBEoU9Cg4IcX+SFB+Pu8SNO2LSF47x/4IUrbaXIZKygMqPT1zObTfQLe3SdVIyEfq5dB4YQ7vf7VjLg5D7bhgYH1g5KAxN3sR2n2DYajDixNWjVsLVevfMPlUJ4VNF1phP6f2u83Z/PQ2e5At2Dj/ZhtNbgMFu+YG8QMW48frQ6PdtcRCMGjyh7FwizOUdih9h0xEFgtQCriolHu824Ug0FfFEmBbt9WWEeEAZgiF8QDrTaSGnTuOFZxsZKkwH4oxRm7/WFEQOD3c2+hNA052MJS95eF2CadnMiVUdugJwBCwXzd1RvzgBmzL5QzsSzCrl9Wth5pGM97bOvx3QN+kovy+WQ4HW4AaNm4GnGwt00kxTND36+pUcOYz4CYBFL2w4fsQsLMBdbxelR3C02CcRAgAa+5XdG5uQxO9M1dtiiZZIL4utWChWiVDmRonimyGYZOc9lzZhZLLjC+O1lOUtwub/EjaNl5ib7kxeNuaYUOp/l1avNNP1Nvp9eH6oeXd4wLuNBn4YQ="
+  ],
+  "supported_socials": [
+    "twitter",
+    "github",
+    "telegram",
+    "instagram",
+    "discord"
+  ],
+  "publicFunctions": {
+    "follow": [
+      "jwk_n",
+      "sig",
+      "address"
+    ],
+    "updateWalletMetadata": [
+      "jwk_n",
+      "sig",
+      "nickname",
+      "bio",
+      "avatar",
+      "websites",
+      "socials",
+      "banner"
+    ],
+    "removeSoWebArrayValue": [
+      "jwk_n",
+      "sig",
+      "type",
+      "key",
+      "value"
+    ],
+    "unfollow": [
+      "jwk_n",
+      "sig",
+      "address"
+    ],
+    "addSocialPlatform": [
+      "jwk_n",
+      "sig",
+      "platform"
+    ]
+  }
+}
