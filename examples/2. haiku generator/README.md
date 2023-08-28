@@ -27,6 +27,10 @@ To interact with MEM mainnet contracts while MEM is in beta, you must first get 
 
 This contract's only public function, `generate`, does not take any arguments. 
 
+```json
+{"function":"generate"}
+```
+
 Check out the [MEM docs](https://docs.mem.tech/) to learn more about [interacting with MEM contracts](https://docs.mem.tech/mem-api/write-operations).
 
 ### Read Method
