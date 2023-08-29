@@ -15,7 +15,7 @@ Molecular Execution Machine is a web3-ready serverless functions platform. Build
 ## Examples list
 
 1. [Guestbook](https://github.com/decentldotland/mem-examples/tree/main/examples/1.%20guestbook)
-2. [Counter](https://github.com/decentldotland/mem-examples/tree/main/examples/2.%counter)
+2. [Counter](https://github.com/decentldotland/mem-examples/tree/main/examples/2.%20counter)
 3. [Ethereum authentication](https://github.com/decentldotland/mem-examples/tree/main/examples/3.%20ethereum%20authentication)
 4. [Haiku generator](https://github.com/decentldotland/mem-examples/tree/main/examples/4.%20haiku%20generator)
 5. [Social metadata (Linktree clone)](https://github.com/decentldotland/mem-examples/tree/main/examples/5.%20social%20metadata)
