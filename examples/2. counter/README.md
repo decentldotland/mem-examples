@@ -1,12 +1,11 @@
 ## MEM guestbook
 
-A simple contract any user can write messages to.
+A simple counter example.
 
 ## Log Object structure
 ```json
     {
-      "username": "MEM Enjoyooor",
-      "data": "Hello, MEM" 
+      "count": "22"
     }
 ```
 ## Deploying and testing
@@ -17,7 +16,7 @@ For mainnet, MEM contracts are deployed via the [MEM CLI](https://docs.mem.tech/
 
 For example:
 
-```mem deploy --src ./contract.js --init-state '{ "logs": [] }'```
+```mem deploy --src ./contract.js --init-state '{ "count": 0 }'```
 
 To interact with MEM mainnet contracts while MEM is in beta, you must first get the contract whitelisted via [this form](https://docs.google.com/forms/u/1/d/e/1FAIpQLSfRB95cZzGyy3IRmsMwjHx7gweywmybptBU0XbUb2GZumwaKA/viewform?usp=send_form).
 
@@ -27,18 +26,14 @@ To interact with MEM mainnet contracts while MEM is in beta, you must first get 
 
 Check out the [MEM docs](https://docs.mem.tech/) to learn more about [interacting with MEM contracts](https://docs.mem.tech/mem-api/write-operations).
 
-#### Write a message to the logs
+#### Write a change to the counter
 
 ##### MEM interaction object
 ```json
     {
-      "function": "save",
-      "username": "mem_fan777",
-      "data": "Hello, MEM" 
+      "function": "increment"
     }
 ```
-
-If using the [IDE](https://mem.tech/ide), omit the `function` key-value pair.
 
 ### Read Method
 
