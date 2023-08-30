@@ -1,6 +1,13 @@
+<p align="center">
+  <a href="https://decent.land">
+    <img src="https://mem-home.vercel.app/icons/mem/mem-logo-v2.svg" height="180">
+  </a>
+  <h3 align="center"><code>@decentldotland/mem-examples</code></h3>
+</p>
+
 # MEM examples
 
-Molecular Execution Machine is a web3-ready serverless functions platform. Build and deploy trustless dApps in record time ⚡️
+[Molecular Execution Machine](https://mem.tech) is a web3-ready serverless functions platform. Build and deploy trustless dApps in record time ⚡️
 
 ## MEM features
 
