@@ -1,0 +1,26 @@
+{
+  "posts": [
+      {
+          "pid": "f1d44e8a-7dd3-1976-a294-bacf9685b950",
+          "author": "0x0000000000000000000000000000000000000000",
+          "title": "Title 1",
+          "description": "Description 1",
+          "content": "# My First Post",
+          "categories": [
+              "mem",
+              "crud"
+          ]
+      }
+  ],
+  "publicFunctions": {
+      "createPost": [
+          "data"
+      ],
+      "updatePost": [
+          "data"
+      ],
+      "removePost": [
+          "data"
+      ]
+  }
+}
