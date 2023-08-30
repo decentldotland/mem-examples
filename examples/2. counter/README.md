@@ -1,4 +1,4 @@
-## MEM guestbook
+## MEM counter
 
 A simple counter example.
 
